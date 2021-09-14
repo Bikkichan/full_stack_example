@@ -11,37 +11,57 @@ clone repo to local machine
 
 cd into repo
 
-### create virtual environment
+----
 
-`virtualenv venv`
+## create virtual environment
 
-`source venv/bin/activate`
+```sh 
+virtualenv venv
+```
 
-### Build app
+```sh 
+source venv/bin/activate
+```
 
-`pip install .....`
+----
 
+## Build app
+
+```sh 
+pip install .....
+```
+
+.......
+
+```sh 
 pip freeze > requirements.txt
+```
 
-### Connect to Heroku 
-
+----
+## Connect to Heroku 
 With github repo 
 Manual deploy
-### Push to main branch
 
-### Instal Heroku cli
+## Push to main branch
 
-### Prepare codebase for heroku deployment
+---
+## Instal Heroku cli
 
+---
+## Prepare codebase for heroku deployment
+
+---
 https://devcenter.heroku.com/articles/preparing-a-codebase-for-heroku-deployment
 
-### Local Postgres setup
+----
+## Local Postgres setup
 
 note: psql
 
 https://devcenter.heroku.com/articles/heroku-postgresql#local-setup
 
-### Provision Heroku Postgres
+----
+## Provision Heroku Postgres
 
 https://devcenter.heroku.com/articles/heroku-postgresql#provisioning-heroku-postgres
 
