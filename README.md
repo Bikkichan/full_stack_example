@@ -13,9 +13,9 @@ cd into repo
 
 ### create virtual environment
 
-`conda create -n venv python=3.7`
+`virtualenv venv`
 
-`conda activate venv`
+`source venv/bin/activate`
 
 ### Build app
 
