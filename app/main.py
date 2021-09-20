@@ -1,6 +1,14 @@
 from flask import Flask, render_template
 
 
+engine = create_engine("postgresql://qttgloeftjasgq:6ee694584f865888de3969ea9c6196a74435377c44b382d0ab4a8a3f529fe0c4@ec2-34-234-12-149.compute-1.amazonaws.com:5432/dfofff6l7k23vb")
+
+# reflect an existing database into a new model
+Base = automap_base()
+# reflect the tables
+Base.prepare(engine, reflect=True)
+
+
 app = Flask(__name__,template_folder="static/templates")
 
 
