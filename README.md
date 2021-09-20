@@ -203,3 +203,5 @@ https://devcenter.heroku.com/articles/heroku-postgresql#provisioning-heroku-post
 https://dev.to/techparida/how-to-deploy-a-flask-app-on-heroku-heb
 
 https://codeburst.io/creating-a-full-stack-web-application-with-python-npm-webpack-and-react-8925800503d9
+
+https://medium.com/@gitaumoses4/deploying-a-flask-application-on-heroku-e509e5c76524
